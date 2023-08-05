@@ -23,6 +23,7 @@ main{
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    
   }
 
 div{
@@ -39,6 +40,7 @@ div.img{
 }
 
 img{
+    border: 2px solid grey;
     width: 80%;
     height: 100%;
 }

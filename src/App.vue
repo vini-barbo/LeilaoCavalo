@@ -7,9 +7,9 @@ import FooterApp from './components/app/Footer/footer.vue'
 
 
 <template>
-  <HeaderApp></HeaderApp>
+  <HeaderApp style="margin-bottom: 20px;"></HeaderApp>
   <RouterView/>
-  <FooterApp></FooterApp>
+  <FooterApp style="margin-top: 20px;"></FooterApp>
 </template>
 
 <style>
