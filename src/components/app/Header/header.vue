@@ -14,7 +14,10 @@ import { RouterLink } from 'vue-router';
 <template>
   <main>
     <section class="icone">
-        <img src="./icon/logo.svg" alt="Logo cavalo">
+        <RouterLink to="/">
+        <img src="./icon/logo.svg" alt="Logo cavalo"
+        @click.native="InlineButtonClickHandler">
+    </RouterLink>
     </section>
     <section class="links_aside">
         <div class="link">
