@@ -1,28 +1,31 @@
 <script>
+import {online} from "./mostruarioDados.js"
     export default{
         name:"MostruarioLeilao",
-        
-        components:{
-        }
-    }
+        data(){
+            return{
+                online: online,
+            };
+        },
+    };
 
 </script>
 
 <template>
 <main>
-    <section class="grid">
-    <div class="element">
+    <section class="grid" v-for="card in online" :key="card.id">
+    <div class="element" >
 
         <img src="/public/destaque.jpg" alt="Anuncio">
 
         <article>
-            <div id="titulo">Titulo lorem</div>
+            <div id="titulo">{{card.titulo}}</div>
             <div class="data">
-                <div id="comeco">começo 00/00/00</div>
-                <div id=termino>termino  00/00/00</div>
+                <div id="comeco">começo {{card.comeco}}</div>
+                <div id=termino>termino  {{card.termino}}</div>
             </div>
             <div id="descricao">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi modi reiciendis consequuntur officia
+                {{card.descricao}}
             </div>
         </article>
     </div>
@@ -40,6 +43,9 @@ main{
 
 section{
     display: grid;
+    grid-template-columns: repeat(4fr);
+    width: 80%;
+    gap: 1rem;
 }
 .element{
     display: flex;
