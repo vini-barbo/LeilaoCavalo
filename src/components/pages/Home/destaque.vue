@@ -8,10 +8,7 @@
 <template>
     <main>
         <div class="img">
-            <img src="/LeilaoCavalo/public/destaque.jpg" alt="cavalo"></div>
-        <div class="texto">
-            <span>Destaque</span>
-        </div>
+            <img src="../../../../public/destaque.jpg" alt="cavalo"></div>
     </main>
 </template>
 
@@ -34,7 +31,6 @@ div{
 }
 
 div.img{
-
     width: 100%;
     height: 90%;
 }
@@ -42,20 +38,21 @@ div.img{
 img{
     border: 2px solid grey;
     width: 80%;
-    height: 100%;
+    height: 90%;
 }
 
 div.texto{
-
     height: 10%;
     aspect-ratio: 2/1;
 }
 
 span{
     width: 80%;
+    height: 100px;
+    text-align: center;
     color: white;
     font-size: 3rem;
-    background-color: #0369a2;
+    background-color: #1c1c1c;
     text-align: center;
 }
 

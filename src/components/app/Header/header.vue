@@ -52,9 +52,11 @@ import { RouterLink } from 'vue-router';
 <style scoped>
 
 main{
+    background-color: white;
     display: flex;
     justify-content: space-between;
     width: 100%;
+    color: #1c1c1c;
 }
 
 section{
@@ -68,8 +70,6 @@ section{
     color: #0369a2;
 }
 
-section.icone{
-}
 
 img{
     color: #0369a2;
@@ -83,10 +83,6 @@ img{
     justify-content: space-between;
 }
 
-.link{
-    
-    text-decoration: none;
-}
 
 .login{
     display: flex;
@@ -103,7 +99,28 @@ img{
     width: 40px;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background: brown;
+    background: #1c475e;
 }
+
+
+a{  
+    text-decoration: none;
+}
+
+
+a:link{
+    color: #1c1c1c;
+}
+a:visited {
+    color: #1c1c1c;
+}
+a:hover {
+    color: #1c1c1c;
+}
+a:active {
+    color: #0369a2;
+}
+
+
 
 </style>

@@ -16,7 +16,7 @@
 main{
     width: 100%;
     height: 200px;
-    background-color: brown;
+    background-color: #1c1c1c;
 }
 
 </style>
