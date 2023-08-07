@@ -2,7 +2,7 @@ const lorem = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissi
 
 export const online = [
 
-    {id:1, titulo:"cavalo de 4 patas", comeco:"00.00.00", termino:"99.99.99", descricao:lorem },
+    {id:1, titulo:"cavalo de 3 patas", comeco:"00.00.00", termino:"99.99.99", descricao:lorem },
 
     {id:2, titulo:"cavalo sem H", comeco:"00.00.00", termino:"99.99.99", descricao:lorem },
 

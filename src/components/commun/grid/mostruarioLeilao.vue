@@ -13,13 +13,13 @@ import {online} from "./mostruarioDados.js"
 
 <template>
 <main>
-    <section class="grid" v-for="card in online" :key="card.id">
-    <div class="element" >
+    <section class="grid" >
+    <div class="element" v-for="card in online" :key="card.id" >
 
         <img src="/public/destaque.jpg" alt="Anuncio">
 
         <article>
-            <div id="titulo">{{card.titulo}}</div>
+            <div id="titulo">{{card.titulo}} id:{{card.id}}</div>
             <div class="data">
                 <div id="comeco">começo {{card.comeco}}</div>
                 <div id=termino>termino  {{card.termino}}</div>
@@ -35,23 +35,23 @@ import {online} from "./mostruarioDados.js"
 
 <style scoped>
 main{
-    display: flex;
-    align-items: center;
     width: 100%;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-section{
+.grid{
     display: grid;
-    grid-template-columns: repeat(4fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 80%;
-    gap: 1rem;
+    gap: 2rem;
 }
 .element{
     display: flex;
     flex-direction: column;
     background-color: white;
-    border: 1px solid #1c1c1c;
+    border: 1px solid white;
     text-align: center;
     width: 300px;
 }

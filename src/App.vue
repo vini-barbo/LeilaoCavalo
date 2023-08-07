@@ -10,7 +10,7 @@ import FooterApp from './components/app/Footer/footer.vue'
   <main class="body">
 
   <keep-alive>
-  <HeaderApp style="margin-bottom: 20px;"></HeaderApp>
+  <HeaderApp></HeaderApp>
   </keep-alive>
 
   <RouterView/>
@@ -27,6 +27,26 @@ import FooterApp from './components/app/Footer/footer.vue'
   padding: 0;
   font-family: 'Open Sans', sans-serif;
 }
+
+.centroPagina{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linha{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #1c1c1c;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+
 </style>
 
 <style scoped>

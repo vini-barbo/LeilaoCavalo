@@ -1,13 +1,18 @@
 <script>
-
+import MostruarioLeilao from '../components/commun/grid/mostruarioLeilao.vue';
   export default{
-    name:"ProdutoEmbriao"
+    name:"ProdutoEmbriao",
+
+    components:{
+      MostruarioLeilao
+    }
   }
 </script>
 
 <template>
-  <main>
-    teste embrião
+  <main class="centroPagina">
+    <div class="linha">Embriões</div>
+    <MostruarioLeilao></MostruarioLeilao>
   </main>
 </template>
 

@@ -1,13 +1,18 @@
 <script>
-
+import MostruarioLeilao from '../components/commun/grid/mostruarioLeilao.vue';
   export default{
-    name:"LeilaoPresencial"
+    name:"LeilaoPresencial",
+
+    components:{
+      MostruarioLeilao
+    }
   }
 </script>
 
 <template>
-  <main>
-    teste presencial
+  <main class="centroPagina">
+    <div class="linha">Leilões presenciais</div>
+    <MostruarioLeilao></MostruarioLeilao>
   </main>
 </template>
 
