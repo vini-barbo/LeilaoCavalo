@@ -10,6 +10,13 @@ This template should help get you started developing with Vue 3 in Vite.
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
+##Equipe
+1. Gerentes de Projetos
+2. Desenvolvimento Front-end
+3. Desenvolvimento Back-end
+4. Burocracia e Documentações
+5. Assistência
+
 ## Project Setup
 
 ```sh
