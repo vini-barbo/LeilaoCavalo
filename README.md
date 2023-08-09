@@ -48,6 +48,4 @@ npm run lint
 ```
 ## Documentações
 
-```
-Lint with [Fase 1 - Sistema de Leilão de Cavalos - informações gerais](https://github.com/vini-barbo/LeilaoCavalo/issues/2)
-```
+See [Phase 1 - Horse Auction System - general information](https://github.com/vini-barbo/LeilaoCavalo/issues/2)
