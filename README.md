@@ -46,3 +46,10 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+## Documentações
+
+### Lint with [ESLint](https://github.com/vini-barbo/LeilaoCavalo/issues/2)
+
+```sh
+Fase 1 - Sistema de Leilão de Cavalos - informações gerais
+```
