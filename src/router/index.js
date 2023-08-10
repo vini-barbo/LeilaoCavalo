@@ -6,6 +6,7 @@ import ProdutoCavalo from '../views/ProdutoCavalo.vue'
 import ProdutoEmbriao from '../views/ProdutoEmbriao.vue'
 import ProdutoCobertura from '../views/ProdutoCobertura.vue'
 import ProdutoOvulo from '../views/ProdutoOvulo.vue'
+import telaItem from '../views/telaItem.vue'
 
 
 
@@ -35,7 +36,7 @@ const router = createRouter({
       name: 'presencial',
       component: LeilaoPresencial
     },
-        {
+      {
       path: '/cavalos',
       name: 'cavalos',
       component: ProdutoCavalo
@@ -54,6 +55,11 @@ const router = createRouter({
       path: '/ovulo',
       name: 'ovulo',
       component: ProdutoOvulo
+    },
+    {
+      path: '/item',
+      name: 'item',
+      component: telaItem
     },
   ]
 })

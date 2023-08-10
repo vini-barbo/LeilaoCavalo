@@ -1,11 +1,12 @@
 <script>
 import { RouterLink } from 'vue-router';
+import RouterLinkHeader from './RouterLinkHeader.vue'
 
     export default{
         name:'HeaderApp',
     
         components:{
-            RouterLink
+            RouterLink, RouterLinkHeader
         }
     }
 </script>
@@ -19,26 +20,7 @@ import { RouterLink } from 'vue-router';
         @click.native="InlineButtonClickHandler">
     </RouterLink>
     </section>
-    <section class="links_aside">
-        <div class="link">
-            <RouterLink to="/presencial">Leilões presenciais</RouterLink>
-        </div>
-        <div class="link">
-            <RouterLink to="/online">Leilões online</RouterLink>
-        </div>
-        <div class="link">
-            <RouterLink to="/cavalos">Cavalos</RouterLink>
-        </div>
-        <div class="link">
-            <RouterLink to="/cobertura">Coberturas</RouterLink>
-        </div>
-        <div class="link">
-            <RouterLink to="/embriao">Embriões</RouterLink>
-        </div>
-        <div class="link">
-            <RouterLink to="/ovulo">Óvulos</RouterLink>
-        </div>
-    </section>
+    <RouterLinkHeader></RouterLinkHeader>
     <section class="login">
     <div class="entrada">
         <div>Entrar</div>
@@ -80,7 +62,8 @@ img{
 .links_aside{
     padding: 0%;
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 5px;
 }
 
 
@@ -103,8 +86,10 @@ img{
 }
 
 
-a{  
+a, select, option{  
     text-decoration: none;
+    background-color: transparent;
+    border: none;
 }
 
 

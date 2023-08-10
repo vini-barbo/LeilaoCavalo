@@ -56,4 +56,17 @@ import FooterApp from './components/app/Footer/footer.vue'
   background-color: #1c475e;
 }
 
+a:link{
+  color: #1c1c1c;
+}
+a:visited {
+  color: #1c1c1c;
+}
+a:hover {
+  color: #1c1c1c;
+}
+a:active {
+  color: #0369a2;
+}
+
 </style>

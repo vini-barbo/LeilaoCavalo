@@ -35,6 +35,7 @@ import {online} from "./mostruarioDados.js"
 
 <style scoped>
 main{
+    margin-top: 10px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -43,9 +44,11 @@ main{
 
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 2rem;
+    justify-items: center;
+    
 }
 .element{
     display: flex;
