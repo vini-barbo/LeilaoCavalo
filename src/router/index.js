@@ -7,7 +7,7 @@ import ProdutoEmbriao from '../views/ProdutoEmbriao.vue'
 import ProdutoCobertura from '../views/ProdutoCobertura.vue'
 import ProdutoOvulo from '../views/ProdutoOvulo.vue'
 import telaItem from '../views/telaItem.vue'
-import Login from '../views/login.vue'
+
 
 
 const router = createRouter({
@@ -58,13 +58,8 @@ const router = createRouter({
     },
     {
       path: '/item',
-      name: 'item',
+      name: 'item/id',
       component: telaItem
-    },
-    {
-      path: '/login',
-      name: 'login',
-      component: Login
     },
   ]
 })

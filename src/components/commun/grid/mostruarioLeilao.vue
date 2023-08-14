@@ -1,5 +1,6 @@
 <script>
 import {online} from "./mostruarioDados.js"
+import mostruarioFiltro from "./mostruarioFiltro.vue";
     export default{
         name:"MostruarioLeilao",
         data(){
@@ -7,14 +8,25 @@ import {online} from "./mostruarioDados.js"
                 online: online,
             };
         },
+        components:{
+            mostruarioFiltro,
+        },
+        methods: {
+            irParaPaginaItem(id){
+                console.log(id)
+            }
+        },
     };
 
 </script>
 
 <template>
 <main>
+    <section class="filtro">
+        <mostruarioFiltro></mostruarioFiltro>
+    </section>
     <section class="grid" >
-    <div class="element" v-for="card in online" :key="card.id" >
+    <div class="element" v-for="card in online" :key="card.id">
 
         <img src="/public/destaque.jpg" alt="Anuncio">
 
@@ -40,13 +52,18 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
+}
+
+.filtro , .grid{
+    width: 80%;
 }
 
 .grid{
     display: grid;
-    width: 80%;
+    
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 2rem;
+    gap: 1rem;
     justify-items: center;
     
 }

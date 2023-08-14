@@ -23,7 +23,7 @@ import RouterLinkHeader from './RouterLinkHeader.vue'
     <RouterLinkHeader></RouterLinkHeader>
     <section class="login">
     <div class="entrada">
-        <div>Entrar</div>
+        <router-link to="/login">Entrar</router-link>
         <div>cadastrar</div>
     </div>
         <div class="fotoPerfil"></div>

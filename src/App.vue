@@ -4,8 +4,6 @@ import HeaderApp from './components/app/Header/header.vue'
 import FooterApp from './components/app/Footer/footer.vue'
 </script>
 
-
- 
 <template>
   <main class="body">
 

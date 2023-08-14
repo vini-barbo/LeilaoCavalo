@@ -1,15 +1,19 @@
 <script>
 
   export default{
-    name:"Login"
+    name:"LoginEmpresa"
   }
+
 </script>
 
 <template>
-    <main>
-        Realizar Login
-    </main>
-    </template>
+<main>
+  <section>
+  </section>
+</main>
+</template>
 
 <style scoped>
+
+
 </style>
