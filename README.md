@@ -12,10 +12,24 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Equipe
 1. Gerentes de Projetos
+- Vinicius
+- João Victor
+
 2. Desenvolvimento Front-end
+- Vinicius
+- Mateus
+
 3. Desenvolvimento Back-end
-4. Burocracia e Documentações
-5. Assistência
+- Pedro
+- Victor
+- João Victor
+
+5. Burocracia e Documentações
+- Marcos
+- Hellen
+
+7. Assistência
+- Celio Rocha
 
 ## Project Setup
 
