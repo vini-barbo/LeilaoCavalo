@@ -25,7 +25,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 - João Victor
 
 5. Burocracia e Documentações
-- Marcos
+- Marcos Paulo
 - Hellen
 
 7. Assistência
