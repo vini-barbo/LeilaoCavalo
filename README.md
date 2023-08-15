@@ -23,7 +23,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 - Mateus Feliph / Mateus.feliph@ufrpe.br
 
 3. Desenvolvimento Back-end
-- Pedro Melo / pedroddemelo@gmail.com
+- Pedro Melo / pedrodedeuslindo@gmail.com
 - Victor / victorsimasazevedo@gmail.com
 - João Victor / joaovictordesena2020@gmail.com
 
