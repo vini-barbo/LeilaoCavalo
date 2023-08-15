@@ -11,31 +11,32 @@ This template should help get you started developing with Vue 3 in Vite.
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Equipe
+### Nome / E-mail
+
 1. Gerentes de Projetos
 - Vinicius
 - João Victor
-- Gabriel
+- Gabriel Almeida / bielgag14@gmail.com
 
 2. Desenvolvimento Front-end
 - Vinicius
-- Mateus
+- Mateus Feliph / Mateus.feliph@ufrpe.br
 
 3. Desenvolvimento Back-end
-- Pedro
-- Victor
-- João Victor
+- Pedro Melo / pedroddemelo@gmail.com
+- Victor / victorsimasazevedo@gmail.com
+- João Victor / joaovictordesena2020@gmail.com
 
 5. Testes Funcionais
 - Rodrigo
 
 6. Burocracia e Documentações
 - Marcos Paulo
-- Hellen
-- Rodrigo
+- Hellen Barros / hellenbarrosac@gmail.com
+- Leonam Fernandes / leon.hent@gmail.com
   
 7. Assistência
-- Celio Rocha
-
+- Celio Rocha / celioelea@gmail.com
 
 ## Project Setup
 
