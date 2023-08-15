@@ -10,6 +10,34 @@ This template should help get you started developing with Vue 3 in Vite.
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
+## Equipe
+### Nome / E-mail
+
+1. Gerentes de Projetos
+- Vinicius  /  vinibalagames@gmail.com
+- João Victor /  joaovictordesena2020@gmail.com
+- Gabriel Almeida / bielgag14@gmail.com
+
+2. Desenvolvimento Front-end
+- Vinicius  /  vinibalagames@gmail.com
+- Mateus Feliph / Mateus.feliph@ufrpe.br
+
+3. Desenvolvimento Back-end
+- Pedro Melo / pedrodedeuslindo@gmail.com
+- Victor / victorsimasazevedo@gmail.com
+- João Victor / joaovictordesena2020@gmail.com
+
+5. Testes Funcionais
+- Rodrigo  / rodrigoalbuquerque010@gmail.com
+
+6. Burocracia e Documentações
+- Marcos Paulo   /  mpaulossantana@gmail.com 
+- Hellen Barros / hellenbarrosac@gmail.com
+- Leonam Fernandes / leon.hent@gmail.com
+  
+7. Assistência
+- Celio Rocha / celioelea@gmail.com
+
 ## Project Setup
 
 ```sh
@@ -39,3 +67,6 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+## Documentações
+
+See [Phase 1 - Horse Auction System - general information](https://github.com/vini-barbo/LeilaoCavalo/issues/2)
