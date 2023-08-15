@@ -14,12 +14,12 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ### Nome / E-mail
 
 1. Gerentes de Projetos
-- Vinicius
-- João Victor
+- Vinicius  /  vinibalagames@gmail.com
+- João Victor /  joaovictordesena2020@gmail.com
 - Gabriel Almeida / bielgag14@gmail.com
 
 2. Desenvolvimento Front-end
-- Vinicius
+- Vinicius  /  vinibalagames@gmail.com
 - Mateus Feliph / Mateus.feliph@ufrpe.br
 
 3. Desenvolvimento Back-end
@@ -28,10 +28,10 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 - João Victor / joaovictordesena2020@gmail.com
 
 5. Testes Funcionais
-- Rodrigo
+- Rodrigo  / rodrigoalbuquerque010@gmail.com
 
 6. Burocracia e Documentações
-- Marcos Paulo
+- Marcos Paulo   /  mpaulossantana@gmail.com 
 - Hellen Barros / hellenbarrosac@gmail.com
 - Leonam Fernandes / leon.hent@gmail.com
   
