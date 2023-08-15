@@ -14,6 +14,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 1. Gerentes de Projetos
 - Vinicius
 - João Victor
+- Gabriel
 
 2. Desenvolvimento Front-end
 - Vinicius
@@ -24,12 +25,17 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 - Victor
 - João Victor
 
-5. Burocracia e Documentações
+5. Testes Funcionais
+- Rodrigo
+
+6. Burocracia e Documentações
 - Marcos Paulo
 - Hellen
-
+- Rodrigo
+  
 7. Assistência
-- Celio Rocha
+- Celio Rocha
+
 
 ## Project Setup
 
