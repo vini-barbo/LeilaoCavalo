@@ -29,6 +29,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 5. Testes Funcionais
 - Rodrigo  / rodrigoalbuquerque010@gmail.com
+- João Victor /  joaovictordesena2020@gmail.com
 
 6. Burocracia e Documentações
 - Marcos Paulo   /  mpaulossantana@gmail.com 
