@@ -25,7 +25,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 3. Desenvolvimento Back-end
 - Pedro Melo / pedrodedeuslindo@gmail.com
 - Victor / victorsimasazevedo@gmail.com
-- João Victor / joaovictordesena2020@gmail.com
+- 
 
 5. Testes Funcionais
 - Rodrigo  / rodrigoalbuquerque010@gmail.com
