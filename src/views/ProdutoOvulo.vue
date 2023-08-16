@@ -1,7 +1,7 @@
 <script>
 import MostruarioLeilao from '../components/commun/grid/mostruarioLeilao.vue';
   export default{
-    name:"ProdutoOvul",
+    name:"ProdutoOvulo",
     components:{
       MostruarioLeilao
     },
