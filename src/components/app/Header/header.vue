@@ -24,7 +24,7 @@ import RouterLinkHeader from './RouterLinkHeader.vue'
     <section class="login">
     <div class="entrada">
         <router-link to="/login">Entrar</router-link>
-        <div>cadastrar</div>
+        <router-link to="/login">Cadastrar</router-link>
     </div>
         <div class="fotoPerfil"></div>
     </section>
@@ -34,11 +34,12 @@ import RouterLinkHeader from './RouterLinkHeader.vue'
 <style scoped>
 
 main{
-    background-color: white;
+    background-color: rgb(240, 240, 240);
     display: flex;
     justify-content: space-between;
     width: 100%;
     color: #1c1c1c;
+    box-shadow: 1px 1px 2px 2px (240, 240, 240);
 }
 
 section{
@@ -82,7 +83,7 @@ img{
     width: 40px;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background: #1c475e;
+    background: grey;
 }
 
 

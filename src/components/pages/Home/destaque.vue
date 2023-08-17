@@ -31,14 +31,16 @@ div{
 }
 
 div.img{
+    
     width: 100%;
     height: 90%;
 }
 
 img{
-    border: 2px solid grey;
+    box-shadow: 1px 1px 2px 2px rgb(152, 152, 152);
     width: 80%;
     height: 90%;
+    border-radius: 5px;
 }
 
 div.texto{

@@ -12,8 +12,8 @@ import mostruarioFiltro from "./mostruarioFiltro.vue";
             mostruarioFiltro,
         },
         methods: {
-            irParaPaginaItem(id){
-                console.log(id)
+            irParaPaginaItem(){
+                this.$router.push("/item")
             }
         },
     };
@@ -22,22 +22,20 @@ import mostruarioFiltro from "./mostruarioFiltro.vue";
 
 <template>
 <main>
-    <section class="filtro">
+    <section class="telaItem" v-if="false">
+    </section>
+    <section v-if="false" class="filtro">
         <mostruarioFiltro></mostruarioFiltro>
     </section>
     <section class="grid" >
-    <div class="element" v-for="card in online" :key="card.id">
+    <div class="element" v-for="card in online" :key="card.id" @click="irParaPaginaItem()">
 
-        <img src="/public/destaque.jpg" alt="Anuncio">
+        <img src="/public/destaque.jpg" alt="Anuncio" style="border-radius: 5px;">
 
         <article>
             <div id="titulo">{{card.titulo}} id:{{card.id}}</div>
-            <div class="data">
-                <div id="comeco">começo {{card.comeco}}</div>
-                <div id=termino>termino  {{card.termino}}</div>
-            </div>
-            <div id="descricao">
-                {{card.descricao}}
+            <div v-if="true" class="data">
+                <div id=termino>Termina em {{card.termino}}</div>
             </div>
         </article>
     </div>
@@ -53,6 +51,9 @@ main{
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    background: #eeeeee;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .filtro , .grid{
@@ -61,8 +62,8 @@ main{
 
 .grid{
     display: grid;
-    
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
     gap: 1rem;
     justify-items: center;
     
@@ -71,9 +72,18 @@ main{
     display: flex;
     flex-direction: column;
     background-color: white;
-    border: 1px solid white;
+    box-shadow: 1px 1px 1.5px 1.5px rgb(176, 176, 176);
+    border-radius: 5px;
     text-align: center;
     width: 300px;
+    cursor: pointer;
+    transition: 8ms;
+
+}
+
+.element:hover{
+    animation-timing-function: ease;
+    box-shadow: 1px 1px 1.5px 1.5px rgb(201, 201, 201);
 }
 
 img{
@@ -83,8 +93,12 @@ img{
 
 article{
     width: 100%;
-    height: 150px;
+    height: 50px;
     overflow: hidden;
+}
+
+#titulo{
+    font-size: 1.3rem;
 }
 .data{
     display: flex;
