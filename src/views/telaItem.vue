@@ -34,6 +34,11 @@
 img{
     width: 80vw;
     height: 80vh;
+
+}
+
+section{
+    color: black;
 }
 
 </style>
