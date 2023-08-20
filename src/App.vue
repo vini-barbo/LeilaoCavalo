@@ -8,7 +8,7 @@ import FooterApp from './components/app/Footer/footer.vue'
   <main class="body">
 
   <keep-alive>
-  <HeaderApp></HeaderApp>
+  <HeaderApp style="margin-bottom:20px"></HeaderApp>
   </keep-alive>
 
   <RouterView/>
@@ -30,6 +30,7 @@ import FooterApp from './components/app/Footer/footer.vue'
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .linha{
@@ -43,6 +44,7 @@ import FooterApp from './components/app/Footer/footer.vue'
     font-size: 3rem;
     font-weight: bolder;
 }
+
 
 
 </style>
