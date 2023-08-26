@@ -1,11 +1,12 @@
 <script>
 
+
     export default{
         name:'RouterLinkHeader',
 
         data() {
             return {
-                paginaSelecionada: "TESTESTEZ"
+                paginaSelecionada: ""
             }
         },
         methods: {
@@ -19,21 +20,25 @@
 
 <template>
     <section class="links_aside" style="color: black;" >
-        Leilões
         <select name="Leilões" id="Leilões" label="teste" v-model="paginaSelecionada" @change="RedirecionaLink">
-        <option value="/presencial">Leilões</option>
+        <option value="">Leilões</option>
         <option value="/presencial">presenciais</option>
         <option value="/online">online</option>
         </select>
 
         <select name="Produtos" id="Produtos" v-model="paginaSelecionada" @change="RedirecionaLink" style="color: black;" >
-        Produtos
+        <option value="">Produtos</option>
         <option value="/cavalos">Cavalos</option>
         <option value="/cobertura">Coberturas</option>
         <option value="/embriao">Embriões</option>
         <option value="/ovulo">Óvulos</option>
     </select>
+
+    <router-link  to="/" class="a">Adicionar cavalo</router-link>
+    <router-link to="/" class="a">Adicionar cavalo</router-link>
     </section>
+
+
 </template>
 
 <style scoped>
@@ -48,8 +53,6 @@ section{
     color: #0369a2;
 }
 
-
-
 .links_aside{
     padding: 0%;
     width: 100%;
@@ -57,9 +60,10 @@ section{
     gap: 5px;
 }
 
-a, select, option{  
+a, select, option .a{  
     background-color: transparent;
     border: none;
+    text-decoration: none
 }
 
 </style>

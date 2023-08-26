@@ -53,16 +53,16 @@ import FooterApp from './components/app/Footer/footer.vue'
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 
-a:link{
+a:link, .a{
   color: #1c1c1c;
 }
-a:visited {
+a:visited, .a {
   color: #1c1c1c;
 }
-a:hover {
+a:hover, .a {
   color: #1c1c1c;
 }
-a:active {
+a:active, .a {
   color: #0369a2;
 }
 

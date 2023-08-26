@@ -8,6 +8,8 @@ import ProdutoCobertura from '../views/ProdutoCobertura.vue'
 import ProdutoOvulo from '../views/ProdutoOvulo.vue'
 import telaItem from '../views/telaItem.vue'
 import LoginEmpresa from '../views/Login.vue'
+import AdicionarCavalo from "../views/AdicionarCavalo.vue"
+import AdicionarLeilao from "../views/AdicionarLeilão.vue"
 
 
 
@@ -66,6 +68,16 @@ const router = createRouter({
       path: '/login',
       name: 'login',
       component: LoginEmpresa
+    },
+    {
+      path: '/adicionarcavalo',
+      name: 'adicionarcavalo',
+      component: AdicionarCavalo
+    },
+    {
+      path: '/adicionarleilao',
+      name: '/adicionarleilao',
+      component: AdicionarLeilao
     },
   ]
 })

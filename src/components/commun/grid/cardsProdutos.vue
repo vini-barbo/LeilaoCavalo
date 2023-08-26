@@ -1,26 +1,31 @@
 <script>
 export default {
-  name: "Cards",
-  data() {
-    return {
-      items: [
-        { id: 1, title: "Cavalo" },
-        { id: 2, title: "Coberturas" },
-        { id: 3, title: "Embriões" },
-        { id: 4, title: "Óvulos" }
-      ]
-    };
+  name: "cardsProdutos",
+
+  methods: {
+    irProduto(id){
+      console.log("consolo pica cu")
+      console.log(id)
+      this.$router.push(id)
+    },
   }
-};
+}
 </script>
 
 <template>
   <main>
-    <section class="grid">
-      <div class="element" v-for="item in items" :key="item.id">
-        <article>
-          <div id="titulo">{{ item.title }}</div>
-        </article>
+    <section class="grid" @click="irProduto('/cavalos')">
+      <div class="element">
+          <div id="titulo">Cavalo</div>
+      </div>
+      <div class="element" @click="irProduto('/cobertura')">
+          <div id="titulo">Coberturas</div>
+      </div>
+      <div class="element" @click="irProduto('/embriao')">
+          <div id="titulo">Embriões</div>
+      </div>
+      <div class="element" @click="irProduto('/ovulo')">
+          <div id="titulo"  >Óvulos</div>
       </div>
     </section>
   </main>
@@ -51,13 +56,18 @@ main {
   display: flex;
   flex-direction: column;
   background-color: white;
+  align-items: center;
+  justify-content: center;
 border-radius:
 5px;text-align:
 center;width:
 300px;cursor:
 pointer;margin-left:
 20px;margin-right:
-20px;}
+20px;
+height: 300px;
+}
+
 
 .element:hover{
 animation-timing-function:

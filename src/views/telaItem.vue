@@ -36,7 +36,7 @@
         </aside>
 
         <aside class="informacoes">
-        <div class="caixa">
+        <div class="caixa" >
             <div class="tempo">Encerra em : 0 D 23 H 10 M 4 S
             </div>
         </div>
@@ -48,7 +48,7 @@
             </div>
         </div>
             
-        <div class="caixa">
+        <div class="caixa" >
             <div class="valor">
                 <label> Lance minimo</label>
                 <label>R$ 4000,00</label>  
